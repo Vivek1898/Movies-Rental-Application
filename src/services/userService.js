@@ -1,7 +1,7 @@
 import http from "./httpmodule";
+import {apiUrl} from "../config.json";
 
-
-const api="/users";
+const api=apiUrl+"/users";
 export function register(user){
     return http.post(api,{
         email:user.username,

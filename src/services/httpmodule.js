@@ -5,7 +5,7 @@ import {toast} from "react-toastify";
 
 //sending post ...include header for http requeest
 
-axios.defaults.baseURL=process.env.REACT_APP_API_URL;
+
 
 
 //For unexpected error
