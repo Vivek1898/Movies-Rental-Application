@@ -1,7 +1,7 @@
 import http from "./httpmodule";
-import {apiUrl} from "../config.json";
 
-const api=apiUrl+"/movies";
+
+const api="/movies";
 export function getMovies(){
     return http.get(api);
 

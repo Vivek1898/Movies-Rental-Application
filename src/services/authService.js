@@ -1,8 +1,8 @@
 import jwtDecode from "jwt-decode";
 import http from "./httpmodule";
-import {apiUrl} from "../config.json";
 
-const api=apiUrl+"/auth";
+
+const api="/auth";
 const tokenkey="token";
 //Reverse order due to bi directional dependicies
 http.setJwt(getJwt());
