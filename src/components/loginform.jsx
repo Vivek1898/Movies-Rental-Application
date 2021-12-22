@@ -2,7 +2,7 @@ import React from 'react';
 import Joi from 'joi-browser';
 
 import Form from './common/form';
-import Input from './common/input';
+
 import auth from "../services/authService";
 import { Redirect } from 'react-router-dom';
 

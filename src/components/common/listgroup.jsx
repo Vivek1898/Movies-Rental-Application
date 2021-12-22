@@ -9,7 +9,7 @@ const Listgroup = (props) => {
         {items.map(item =><li 
         onClick={() => onitemSelect(item)}
         key={item[valueProperty]} 
-        className={item === selecteditem?"list-group-item active":"list-group-item"}>
+        className={item === selecteditem?"list-group-item list-group-item-danger active":"list-group-item list-group-item-success"}>
         {item[textProperty]}</li>)}
         
     </ul>;

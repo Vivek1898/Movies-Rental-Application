@@ -4,7 +4,7 @@ import Listgroup from './common/listgroup';
 import { toast } from 'react-toastify';
 import { Link } from 'react-router-dom';
 import { deleteMovie, getMovies} from '../services/movieService';
-import { genres, getGenres } from '../services/genreSrevice';
+import {  getGenres } from '../services/genreSrevice';
 import Pagination from './common/paginantion';
 import {paginate} from '../utils/paginate';
 import _ from 'lodash';
@@ -131,7 +131,7 @@ return {totalCount : filtered.length,data:movies};
         return (
             //Making left and right columns
 <div className="row"> 
-<div className="col-3">
+<div className="col-4">
 
     <Listgroup 
     items={this.state.genres}
