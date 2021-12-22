@@ -131,7 +131,7 @@ return {totalCount : filtered.length,data:movies};
         return (
             //Making left and right columns
 <div className="row"> 
-<div className="col-4">
+<div className="row">
 
     <Listgroup 
     items={this.state.genres}
